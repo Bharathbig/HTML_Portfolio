@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title> BTV MEDIA </title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+    }
+
+    header {
+      background: #1a73e8;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav {
+      background: #0d47a1;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background: #1565c0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 0 10px;
+    }
+
+    .news-card {
+      background:white (211, 205, 205);
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .news-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .news-content {
+      padding: 15px;
+    }
+
+    .news-content h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      font-family: Arial, Helvetica, sans-serif
+    }
+
+    .news-content p {
+      font-size: 14px;
+      color: #141414;
+    }
+
+    footer {
+      width: 100%;
+      background-color: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BTV MEDIA</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Politics</a>
+    <a href="#">Sports</a>
+    <a href="#">Technology</a>
+    <a href="#">Entertainment</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="news-card">
+      
+      <div class="news-content">
+        <h2>Breaking News Headline</h2>
+        <h5>Spurned by Trump, Modi Springs Into Action</h5>
+        <p>India’s Prime Minister Narendra Modi seems to be doing just that after being spurned by US President Donald Trump. This week Modi revived domestic economic reforms,
+           warmed to the other superpower China and responded with recalcitrance to US warnings on India’s purchases of Russian oil.</p>
+        <img src="modi.avif" alt="">
+        <img src="Breaking news.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="news-card">
+      
+      <div class="news-content">
+        <h2>Sports News</h2>
+        <h5>Chance to impress as Australia prepare to counter Maharaj challenge again.</p>
+        <p class="para">Mark Waugh doesn't hold back generally. But he sounded extra agitated the other night on commentary as Australia fell in a heap against Keshav Maharaj in Cairns. He lamented about how some in the Australian middle-order looked like they'd never faced quality left-arm spin before</p>
+    <img src="news4.webp" alt="News">
+        <img src="news3.jpeg" alt="">
+      </div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-content">
+        <h2>Technology Buzz</h2>
+        <p>Tech Mahindra is a global IT services and consulting company. It offers a wide range of services including IT consulting, digital transformation, and business process outsourcing. They specialize in leveraging next-generation technologies like AI, blockchain,
+           and IoT to help businesses transform and improve their operations. </p>
+        <img src="news2.webp">
+        <img src="computer lab 5.jpeg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Daily News Portal. All rights reserved by Btv Media.</p>
+    
+  </footer>
+
+</body>
+</html>

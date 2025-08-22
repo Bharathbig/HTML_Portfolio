@@ -1,0 +1,13 @@
+#news{
+    height: 100px;
+    width: 100%;
+    background-image: -o-linear-gradient(red,black,blue);
+border: 1px black solid;
+background-color: aquamarine;
+}
+#head{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    font-style: normal;
+}
